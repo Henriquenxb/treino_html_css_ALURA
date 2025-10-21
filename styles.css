@@ -1,0 +1,30 @@
+:root{
+
+    --main-white: #FFFFFF;
+    --secundary-gray: #C0C0C0;
+    --button_blue: #167bf7;
+    --backgroud-color: #00030c;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--backgroud-color);
+    color: var(--main-white);
+}
+
+
+/*if the user needs an image with "alt" use "img" tag in html, else use background-image in css*/
+.main{
+    /*use this to attach an image in background*/
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contaainer{
+
+}
